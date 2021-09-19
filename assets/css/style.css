@@ -1,0 +1,282 @@
+*{
+ 	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+
+}
+button{
+	cursor: pointer;
+
+
+
+}
+.menu{
+	width: 15%;
+	position: fixed;
+	background-color: #45015d;
+	height: 100%;
+	padding: 20px;
+	color: white;
+	border-radius: 15px;
+}
+.content{
+	width: 75%;
+	margin-left: 25%;
+	padding-top: 80px;
+	padding-right: 40px;
+}
+.menu a{
+	display: block;
+	padding: 8px 16px;
+	text-decoration: none;
+	color: white;
+
+}
+.menu h2{
+	margin-bottom: 20px;
+	color: white;
+	font-size: 24px;
+
+}
+.menu a:hover{
+	background-color: white;
+	color: #45015d;
+
+
+
+
+}
+.content h1{
+	font-size: 64px;
+
+
+
+}
+h2{
+	color: #45015d;
+	font-size: 48px;
+	margin: 30px 0px 0px 0px;
+
+}
+hr{
+	border: 5px solid #45015d;
+	border-radius: 5px;
+	margin: 20px 0px;
+
+}
+.images img{
+	margin: 10px;
+	border-radius: 10px;
+	width: 45%;
+	opacity: 0.6;
+
+}
+.images img:hover{
+	opacity: 1;
+
+
+
+
+}
+.Basic{
+	font-size: 20px;
+	color: white;
+	background-color: #45015d;
+	width: 400px;
+	height: 50px;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 5px;
+	margin-left: 100px;
+}
+.services p,.designers p{
+	margin-top: 10px;
+	line-height: 35px;
+
+
+}
+.member{
+	width: 30%;
+	display: inline-block;
+	margin: 15px;
+	text-align: left;
+}
+.member img{
+	width: 100%;
+	border-radius: 10px;
+	filter: grayscale(40%);
+
+}
+.member:hover img{
+	filter: grayscale(0%);
+
+
+}
+.member .info{
+	background-color: #F1F1F1;
+	padding: 20px 16px 5px 20px;
+	border-radius: 10px;
+
+}
+.member h4{
+	font-size: 20px;
+
+
+
+}
+.member .post{
+	color: gray;
+
+
+}
+.team{
+	margin-top: 10px;
+	text-align: center;
+
+
+
+}
+.designers h3{
+	margin-top: 20px;
+
+
+
+}
+.form-container{
+	
+
+
+}
+
+.form-container input,.form-container button{
+	display: block;
+	width: 100%;
+	color: black;
+	text-align: center;
+	padding: 10px;
+	margin: 10px 0px;
+	border-style: solid;
+	border-color: lightgray;
+	border-width: 1px;
+	border-radius: 10px
+}
+.form-container button{
+	background-color: #45015d;
+	color: white;
+	border: none;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.form-container label{
+	display: block;
+	margin: 10px 0px;
+
+
+
+}
+.tariff{
+	list-style-type: none;
+	text-align: center;
+	width: 400px;
+	background-color: #F1F1F1;
+	display: inline-block;
+	margin: 20px;
+}
+.tariff li{
+	border-bottom: solid 1px #ddd;
+	padding: 16px 0px;
+	border-radius: 10px;
+
+
+}
+.tariff .tariff-name{
+	color: white;
+	background-color: #45015d;
+	padding: 32px 0px;
+	font-size: 24px;
+}
+.tariff .price{
+	font-size: 40px;
+	font-weight: bold;
+
+
+
+}
+.tariff .amount{
+	opacity: 0.7;
+
+
+
+}
+.tariff button{
+	background-color: white;
+	color: #45015d;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 20px;
+
+}
+.tariff button:hover{
+	color: white;
+	background-color: #45015d;
+
+
+}
+.pro .tariff-name{
+	background-color: #f44336;
+
+
+
+}
+.pro button{
+	background-color: #f44336;
+	color: white;
+
+}
+.pro button:hover{
+	color: #f44336;
+	background-color: white;
+
+
+}
+.tariffs{
+	text-align: center;
+}
+.about-us{
+	background-color: #F1F1F1;
+	width: 100%;
+	padding: 30px;
+	text-align: right;
+	margin-top: 80px;
+	color: black;
+}
+.about-us p{
+	font-weight: bold;
+	margin-top: 15px;
+}
+.about-us a{
+	color: black;
+	text-decoration: none;
+	font-size: 15px;
+	display: block;
+}
+.about-us a:hover{
+	color: #45015d;
+		text-decoration: underline;
+
+
+}
+div:target hr{
+	border-color: #f44336;
+
+
+
+}
+html{
+	scroll-behavior: smooth;
+
+
+
+
+}
